@@ -1,0 +1,11 @@
+x = 0
+jame_nomarat = 0
+a = input("tedad dars khod ra vared konid : ")
+a = int(a)
+while x<a:
+    s = input("nomre dars : ")
+    s = int(s)
+    jame_nomarat = jame_nomarat+s
+    x = x+1
+    moadel = jame_nomarat/a
+print("moadele shoma = ",moadel)    
